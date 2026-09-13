@@ -256,13 +256,13 @@
           })
           .then(res => res.json())
           .then(data => {
-            btn.disabled = false; btn.innerText = " เพิ่มลูปก๊านน "; event.target.value = '';
+            btn.disabled = false; btn.innerText = "➕ เพิ่มลูปก๊านน"; event.target.value = '';
             if (data.status === "success") { loadPhotos(); } 
             else { alert("บันทึกไม่สำเร็จ: " + (data.message || "โปรดตรวจสอบ Apps Script")); }
           })
           .catch(err => {
             console.error("Upload Catch:", err);
-            btn.disabled = false; btn.innerText = " เพิ่มลูปก๊านน "; event.target.value = '';
+            btn.disabled = false; btn.innerText = "➕ เพิ่มลูปก๊านน"; event.target.value = '';
             setTimeout(loadPhotos, 2000); 
           });
         };
