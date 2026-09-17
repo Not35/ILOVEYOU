@@ -146,7 +146,7 @@
 
       <div class="letter">
         <div class="step-content step1-content active" id="step1">
-          <h2>HAPPY ANNIVERSARY 💖🐶</h2>
+          <h2>HAPPY ANNIVERSARY 💖</h2>
           <p>ขอบคุณสำหรับความรักและช่วงเวลาดีๆ ที่มีให้กันเสมอมา ขอให้เรามีกันและกันแบบนี้ตลอดไปนะ</p>
           <p style="margin-top: 15px; font-weight: 700; color: var(--primary-pink);">รักเธอที่สุดเลย 💕</p>
         </div>
