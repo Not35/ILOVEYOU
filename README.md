@@ -148,20 +148,20 @@
         <div class="step-content step1-content active" id="step1">
           <h2>HAPPY ANNIVERSARY 💖</h2>
           <p>ขอบคุณสำหรับความรักและช่วงเวลาดีๆ ที่มีให้กันเสมอมา ขอให้เรามีกันและกันแบบนี้ตลอดไปนะ</p>
-          <p style="margin-top: 15px; font-weight: 700; color: var(--primary-pink);">รักเธอที่สุดเลย 💕</p>
+          <p style="margin-top: 15px; font-weight: 700; color: var(--primary-pink);">รักเธอที่สุดเบย 💕</p>
         </div>
 
         <div class="step-content step2-content" id="step2">
           <div class="counter-box">
-            <h3>เราเดินทางร่วมกันมาแล้ว 💖</h3>
+            <h3>เราเดินทางร่วมกันมาแบ้ว 💖</h3>
             <div class="counter-days" id="days-count">0 วัน</div>
             <div class="counter-detail" id="date-detail">0 ปี 0 เดือน 0 วัน</div>
-            <div class="start-date-text">เราคบกันเมื่อ วันที่ 19 พฤษภาคม 2569</div>
+            <div class="start-date-text">วันที่ 19 พฤษภาคม 2569</div>
           </div>
 
           <div class="album-header">
-            <div class="album-title">📸 อัลบั้มความทรงจำ</div>
-            <button class="upload-btn" id="btn-upload-trigger" onclick="triggerFileInput(event)">➕ เพิ่มรูป</button>
+            <div class="album-title">ความทรงจำของเลา</div>
+            <button class="upload-btn" id="btn-upload-trigger" onclick="triggerFileInput(event)">เพิ่มลูปก๊านน</button>
             <input type="file" id="file-input" accept="image/*" style="display: none;" onchange="handleImageUpload(event)">
           </div>
 
@@ -222,10 +222,10 @@
       if (!isPlaying) tryPlayMusic();
 
       if (clickState === 0) {
-        envelope.classList.add('open'); clickState = 1; hintText.innerText = 'คลิกที่การ์ดอีกครั้งเพื่อดูอัลบั้มของเรา ✨';
+        envelope.classList.add('open'); clickState = 1; hintText.innerText = 'คลิกที่การ์ดอีกครั้งเพื่อดูอัลบั้มเจ้า ✨';
       } else if (clickState === 1) {
         envelope.classList.add('expanded'); step1.classList.remove('active'); step2.classList.add('active');
-        clickState = 2; hintText.innerText = 'สุขสันต์วันครบรอบนะ 💕';
+        clickState = 2; hintText.innerText = 'สุขสันต์วันครบรอบนะงับ 💕';
         // เอาคำสั่งโหลดรูปออกจากตรงนี้ เพื่อไม่ให้มันโหลดใหม่ทุกครั้งที่กด
       }
     }
@@ -239,7 +239,7 @@
       if (!file) return;
 
       const btn = document.getElementById('btn-upload-trigger');
-      btn.disabled = true; btn.innerText = "⏳ กำลังอัป...";
+      btn.disabled = true; btn.innerText = " ⏳ ลอสักครู่เจ้า "
 
       const reader = new FileReader();
       reader.onload = function(e) {
