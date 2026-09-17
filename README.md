@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Happy Anniversary 💖</title>
+  <title>HAPPY ANNIVERSARY 💖</title>
   <style>
     :root {
       --primary-pink: #ff4d6d;
@@ -129,7 +129,7 @@
 
   <div class="container">
     <div class="action-hint" id="action-hint">
-      <span>✉️</span> <span id="hint-text">คลิกที่ซองจดหมายเพื่อเปิดอ่าน</span>
+      <span>✉️</span> <span id="hint-text">ลองคลิกที่ซองจดหมายดูดิอ้วน</span>
     </div>
 
     <div class="envelope-wrapper" id="envelope" onclick="handleEnvelopeClick(event)">
@@ -139,7 +139,7 @@
 
       <div class="letter">
         <div class="step-content step1-content active" id="step1">
-          <h2>Happy Anniversary! 💖</h2>
+          <h2>HAPPY ANNIVERSARY 💖🐶</h2>
           <p>ขอบคุณสำหรับความรักและช่วงเวลาดีๆ ที่มีให้กันเสมอมานะ เค้าขอให้เรามีกันและกันแบบนี้ตลอดไปเลยน้าา</p>
           <p style="margin-top: 15px; font-weight: 700; color: var(--primary-pink);">รักเธอที่สุดเบย 💕</p>
         </div>
